@@ -89,18 +89,6 @@ body {
   clear: both;
 }
 
-.navig::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.contenent::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 footer {
   width: 100%;
   height: 100px;
