@@ -31,10 +31,10 @@ body {
   background-color: #666666;
 }
 
+/* Definizione blocco principale */
 .blocco {
   width: 100%;
   height: 100%;
-  
 }
 
 .sezione {
@@ -58,24 +58,32 @@ body {
 
 .terza {
   width: 20%;
-  height: 400px;
+  height: 300px;
   float: right;
   background-color: white;
   margin-left: 2%;
+}
+
+.quarta {
+  width: 20%;
+  height: 300px;
+  background-color: black;
+  float: right;
+  margin-top: 2%;
+}
+
+.quinta {
+  width: 20%;
+  height: 300px;
+  background-color: white;
+  float: right;
+  margin-top: 2%;
 }
 
 .blocco::after {
   content: "";
   display: table;
   clear: both;
-}
-
-.quarta {
-  width: 20%;
-  height: 300px;
-  background-color: white;
-  float: right;
-  margin-top: 2%;
 }
 
 footer {
