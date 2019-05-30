@@ -31,10 +31,9 @@ body {
   background-color: #666666;
 }
 
-/* Definizione blocco principale */
+/* Definizione dei tre blocchi */
 .blocco {
-  width: 100%;
-  height: 100%;
+  display: inline-block;
 }
 
 .sezione {
@@ -42,58 +41,82 @@ body {
 
 }
 
-.prima {
+.sinistro {
+  float: left;
   width: 20%;
-  height: 200px;
-  background-color: red;
+  height: 100%;
+}
+
+.centrale {
+  float: left;
+  width: 56%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+.destro {
+  float: right;
+  width: 20%;
+  height: 100%;
+  margin-left: 2%;
+}
+
+/* Fine dei tre blocchi */
+
+/* Definizione elementi interni ai blocchi */
+.prima {
+  width: 100%;
+  height: 400px;
+  background-color: white;
   float: left;
 }
 
 .seconda {
-  width: 56%;
+  width: 100%;
   height: 200px;
-  margin-left: 2%;
   background-color: white;
   float: left;
 }
 
 .terza {
-  width: 20%;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   background-color: white;
-  margin-left: 2%;
   float: right;
 }
 
 .quarta {
-  width: 20%;
+  width: 100%;
   height: 300px;
-  background-color: black;
-  margin-left: 2%;
-  margin-top: 2%;
+  background-color: white;;
+  margin-top: 4%;
   float: right;
-
 }
 
 .quinta {
-  width: 20%;
+  width: 100%;
   height: 300px;
   background-color: white;
-  margin-top: 2%;
+  margin-top: 4%;
   float: right;
 }
+/* Definizione elementi interni ai blocchi */
 
-.blocco::after {
+
+.sinistra::after {
   content: "";
   display: table;
   clear: both;
 }
 
-footer {
-  width: 100%;
-  height: 100px;
-  background-color: green;
+.centrale::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-  margin-top: 10px;
-  margin-bottom: 10px;
+.destra::after {
+  content: "";
+  display: table;
+  clear: both;
 }
