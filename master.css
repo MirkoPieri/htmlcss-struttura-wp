@@ -13,20 +13,31 @@ body {
   margin-bottom: 2%;
 }
 
+/* Parametri parte del titolo */
 #title {
   height: 200px;
   width: 100%;
   background-image: url("immagini/sfondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-
   border: 6px solid white;
 }
 
+#text {
+  color: white;
+  position: absolute;
+  top: 100px;
+  left:50%;
+  font-family: arial;
+  transform: translate(-50%, -50%);
+  text-transform: uppercase;
+}
+
+
+/* Parametri del blocco con bottoni */
 .menu {
   width: 100%;
   height: 50px;
-
   margin-bottom: 10px;
   background-color: #666666;
 }
@@ -38,7 +49,6 @@ body {
 
 .sezione {
   border-radius: 3%;
-
 }
 
 .sinistro {
@@ -119,4 +129,32 @@ body {
   content: "";
   display: table;
   clear: both;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 2%;
+}
+
+#principale {
+  height: 100%;
+  width: 100%;
+}
+
+#principale::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: white;
+  margin-top: 2%;
+  border-radius: 3%;
+}
+
+footer {
+  text-align: center;
 }
