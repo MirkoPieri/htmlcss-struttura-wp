@@ -18,7 +18,7 @@ body {
 
 /* Parametri parte del titolo */
 #title {
-  height: 200px;
+  height: 250px;
   width: 100%;
   background-image: url("immagini/sfondo.jpg");
   background-size: cover;
@@ -40,10 +40,18 @@ body {
   padding: 1%;
 }
 
-.logo {
+h2 {
+  width: 80%;
+  color: white;
+  font-family: "Times New Roman";
+  text-transform: uppercase;
+  font-size: 15pt;
   position: absolute;
-  left: 50%;
-  transform: translate(-50%, 0);
+  top: 95%;
+  transform: translate(0, -95%);
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
 }
 
 
